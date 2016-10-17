@@ -4,8 +4,8 @@
   "description": "Get started with React, Redux, and React-Router!",
   "main": "index.js",
   "engines": {
-    "node": ">=6.2.1",
-    "npm": "^3.9.3"
+    "node": "6.2.1",
+    "npm": "3.9.3"
   },
   "scripts": {
     "clean": "rimraf dist",
@@ -20,7 +20,7 @@
     "deploy:dev": "better-npm-run deploy:dev",
     "deploy:prod": "better-npm-run deploy:prod",
     "codecov": "cat coverage/*/lcov.info | codecov",
-    "heroku-postbuild": "npm run clean && npm run compile"
+    "heroku-postbuild": "npm run compile"
   },
   "betterScripts": {
     "compile": {
