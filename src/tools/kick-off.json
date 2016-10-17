@@ -1,0 +1,36 @@
+{
+  "title": "Kick Off",
+  "description": "This is a description of what and when to do the workshop",
+  "info": [
+    {
+      "link": "http://",
+      "description": "Lorem ipsum sit amet dolor"
+    },
+    {
+      "title": "What",
+      "description": "Lorem ipsum sit amet dolor"
+    },
+    {
+      "title": "Participants",
+      "description": "Lorem ipsum sit amet dolor"
+    },
+    {
+      "title": "Time & frequency",
+      "description": "Lorem ipsum sit amet dolor"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Invite & prepare participants",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales diam a nisi vulputate, ac molestie turpis imperdiet. Nullam id pretium libero, at dignissim mi. Maecenas ac malesuada orci, non maximus mauris. Proin ac libero semper, vehicula massa a, dapibus justo. Vestibulum placerat risus velit. Duis fringilla nec turpis et maximus. Aenean pharetra ut nisl id imperdiet. Quisque odio orci, venenatis sed sapien at, rhoncus egestas sem. Aliquam sed congue lacus, a varius magna. Vestibulum lacus velit, semper ut lacus finibus, consequat molestie magna. Nullam eleifend finibus elit. Quisque maximus aliquet tellus eu ullamcorper."
+    },
+    {
+      "title": "Prepare room and material",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales diam a nisi vulputate, ac molestie turpis imperdiet. Nullam id pretium libero, at dignissim mi. Maecenas ac malesuada orci, non maximus mauris. Proin ac libero semper, vehicula massa a, dapibus justo. Vestibulum placerat risus velit. Duis fringilla nec turpis et maximus. Aenean pharetra ut nisl id imperdiet. Quisque odio orci, venenatis sed sapien at, rhoncus egestas sem. Aliquam sed congue lacus, a varius magna. Vestibulum lacus velit, semper ut lacus finibus, consequat molestie magna. Nullam eleifend finibus elit. Quisque maximus aliquet tellus eu ullamcorper."
+    },
+    {
+      "title": "Go through exercises & adapt to team",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales diam a nisi vulputate, ac molestie turpis imperdiet. Nullam id pretium libero, at dignissim mi. Maecenas ac malesuada orci, non maximus mauris. Proin ac libero semper, vehicula massa a, dapibus justo. Vestibulum placerat risus velit. Duis fringilla nec turpis et maximus. Aenean pharetra ut nisl id imperdiet. Quisque odio orci, venenatis sed sapien at, rhoncus egestas sem. Aliquam sed congue lacus, a varius magna. Vestibulum lacus velit, semper ut lacus finibus, consequat molestie magna. Nullam eleifend finibus elit. Quisque maximus aliquet tellus eu ullamcorper."
+    }
+  ]
+}

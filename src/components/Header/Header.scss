@@ -1,0 +1,67 @@
+
+$toolboxColor: #EB5565;
+$teamRoutinesColor: #ADCDA9;
+$ideationColor: #ABC3CC;
+$darkGray: #353535;
+$screenColor: #EC5565;
+
+.tool-header {
+  width: 100%;
+  height: 250px;
+  text-align: left;
+
+  &.toolbox {
+    background: $toolboxColor;
+  }
+
+  &.team-routine {
+    background: $teamRoutinesColor;
+  }
+
+  &.ideation {
+    background: $ideationColor;
+  }
+
+  .tool-header-wrapper {
+    width: 860px;
+    height: 100%;
+    padding-top: 70px;
+    // border: 1px solid red;
+    margin: auto;
+    position: relative;
+
+    .tool-title {
+      margin: 0 0 15px 0;
+      font-size: 60px;
+      color: white;
+    }
+
+    .tool-description {
+      color: $darkGray;
+      font-size: 17px;
+    }
+
+    .tool-menu {
+      position: absolute;
+      bottom: 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      a.selected {
+        .tool-menu-item {
+          color: white;
+          border-bottom: 3px solid $darkGray;
+        }
+      }
+
+      .tool-menu-item {
+        display: inline-block;
+        margin-right: 40px;
+        padding: 0 6px 1px;
+        cursor: pointer;
+        color: $darkGray;
+      }
+    }
+  }
+}

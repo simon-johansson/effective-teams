@@ -1,0 +1,48 @@
+@import 'base';
+@import '~normalize.css/normalize';
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.team-routines-wrapper {
+  .tool-square {
+    background: #ADCDA9;
+  }
+}
+
+.ideation-wrapper {
+  .tool-square {
+    background: #ABC3CC;
+  }
+}
+
+.tool-square {
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  padding: 15px;
+
+  h3 {
+    color: white;
+  }
+
+  p {
+    color: #333;
+  }
+}

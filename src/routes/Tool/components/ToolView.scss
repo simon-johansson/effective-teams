@@ -1,0 +1,83 @@
+
+$toolColor: #ADCDA9;
+$darkGray: #353535;
+$screenColor: #EC5565;
+
+.tab-content {
+  margin-bottom: 40px;
+
+  .wrapper {
+    width: 860px;
+    height: 100%;
+    margin: auto;
+    padding-top: 40px;
+    position: relative;
+
+    .tool-guide-steps {
+      width: 65%;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      float: left;
+      // border: 1px solid red;
+    }
+
+    .tool-guide-step {
+      border-top: 1px solid $darkGray;
+
+      &:last-child {
+        border-bottom: 1px solid $darkGray;
+      }
+
+      &.opened {
+        .step-title {
+          border-bottom: 1px solid $darkGray;
+        }
+
+        .step-content {
+          display: block;
+        }
+      }
+
+      .step-title {
+        font-size: 20px;
+        padding: 10px 0;
+        margin-bottom: 0;
+        position: relative;
+        cursor: pointer;
+
+        .step-index {
+          margin-right: 30px;
+        }
+
+        .icon {
+          position: absolute;
+          right: 10px;
+        }
+      }
+
+      .step-content {
+        margin: 20px;
+        display: none;
+      }
+    }
+  }
+
+  .tool-info {
+    display: inline-block;
+    width: calc(35% - 40px);
+    margin-left: 40px;
+    float: left;
+    margin-top: -15px;
+    height: 400px;
+
+    .tool-info-heading {
+      margin-bottom: 0;
+    }
+
+    .tool-info-description {
+      margin-bottom: 20px;
+    }
+  }
+}
