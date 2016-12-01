@@ -1,0 +1,26 @@
+.CodeMirror, .CodeMirror-scroll {
+  min-height: 50px;
+}
+
+.create-tool-wrapper {
+  padding-top: 20px;
+  max-width: 800px;
+  display: block;
+  margin: auto;
+
+  .step {
+    h4 {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    input[type=text] {
+      width: 300px;
+    }
+  }
+}
+
+.nav-tabs {
+  margin-top: 20px;
+}
+

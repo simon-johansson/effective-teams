@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react'
-import ReactMarkdown from 'react-markdown'
 
 class GuideView extends React.Component {
   constructor (props) {
@@ -23,7 +22,7 @@ class GuideView extends React.Component {
             <i className={`icon ${icon}`} />
           </p>
           <div className='step-content'>
-            <ReactMarkdown source={step.content} />
+            <p>{step.content}</p>
           </div>
         </li>
       )

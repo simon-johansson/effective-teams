@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 import Header from '../../../components/Header'
 import tools from '../../../tools'
 import './ToolView.scss'
@@ -25,6 +26,11 @@ class ToolView extends React.Component {
     ]
     return (
       <div>
+        {false &&
+          <Link to='/create' className='close-preview'>
+            <span>Close preview</span>
+          </Link>
+        }
         <Header
           title={tool.title}
           description={tool.description}
